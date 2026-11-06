@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 36 36" role="img" aria-label="DormAI">
+  <defs>
+    <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#5eead4"/>
+      <stop offset="100%" stop-color="#a78bfa"/>
+    </linearGradient>
+  </defs>
+  <rect x="2" y="2" width="32" height="32" rx="10" fill="url(#g)"/>
+  <path fill="#0c0c0e" d="M11 26V14h5.5c3.2 0 5.3 1.8 5.3 4.6 0 2.1-1.2 3.6-3.1 4.2L23 26h-2.5l-1.8-5.6H13.2V26H11zm2.2-7.4h2.2c1.2 0 1.9-.6 1.9-1.5s-.7-1.4-1.9-1.4h-2.2v2.9z"/>
+  <circle cx="25.5" cy="10.5" r="2" fill="#fef9c3"/>
+</svg>

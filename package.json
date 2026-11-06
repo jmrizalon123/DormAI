@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "sync-theme": "node -e \"const fs=require('fs');fs.mkdirSync('public/css',{recursive:true});fs.mkdirSync('public/js',{recursive:true});fs.copyFileSync('resources/css/dormai-theme.css','public/css/dormai-theme.css');fs.copyFileSync('resources/js/topbar-progress.js','public/js/topbar-progress.js');fs.copyFileSync('resources/js/sidebar-nav.js','public/js/sidebar-nav.js');fs.copyFileSync('resources/js/sidebar-collapse.js','public/js/sidebar-collapse.js');fs.copyFileSync('resources/js/theme-mode.js','public/js/theme-mode.js');fs.copyFileSync('resources/js/sidebar-rail-flyout.js','public/js/sidebar-rail-flyout.js');fs.copyFileSync('resources/js/dashboard-charts.js','public/js/dashboard-charts.js');fs.copyFileSync('resources/js/property-map-picker.js','public/js/property-map-picker.js');fs.copyFileSync('resources/js/map-fullscreen.js','public/js/map-fullscreen.js');fs.copyFileSync('resources/js/property-map-display.js','public/js/property-map-display.js');fs.copyFileSync('resources/js/properties-index-map.js','public/js/properties-index-map.js');fs.copyFileSync('resources/js/dormai-toast.js','public/js/dormai-toast.js');fs.copyFileSync('resources/js/dormai-confirm.js','public/js/dormai-confirm.js');fs.copyFileSync('resources/js/dormai-flash.js','public/js/dormai-flash.js');fs.copyFileSync('resources/js/public-home-map.js','public/js/public-home-map.js');fs.copyFileSync('resources/js/public-listing-map.js','public/js/public-listing-map.js');fs.copyFileSync('resources/js/marketplace-nav.js','public/js/marketplace-nav.js');fs.copyFileSync('resources/js/marketplace-rate-range.js','public/js/marketplace-rate-range.js');fs.copyFileSync('resources/js/marketplace-hero-slideshow.js','public/js/marketplace-hero-slideshow.js');fs.copyFileSync('resources/js/marketplace-search-modal.js','public/js/marketplace-search-modal.js');fs.copyFileSync('resources/js/platform-listing-content.js','public/js/platform-listing-content.js');fs.copyFileSync('resources/js/responsive-tables.js','public/js/responsive-tables.js');\""
+    },
+    "devDependencies": {
+        "@tailwindcss/vite": "^4.0.0",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "laravel-vite-plugin": "^1.2.0",
+        "tailwindcss": "^4.0.0",
+        "vite": "^6.0.11"
+    }
+}
